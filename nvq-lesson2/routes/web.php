@@ -45,5 +45,3 @@ Route::get('/dev/{name}',function($name = "VanQuan"){
 
 
 Route::get('/tvc-account',[TvcAccountController::class,'index'])->name('tvcAccount.index');
-
-Route::get('/account',[Controller::class,'index'])->name('account.index');
